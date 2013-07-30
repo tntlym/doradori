@@ -673,7 +673,7 @@
 			attributes = {
 				LastUpgradeCheck = 0420;
 			};
-			buildConfigurationList = EC1EF59614CF042C005589AA /* Build configuration list for PBXProject "mapper" */;
+			buildConfigurationList = EC1EF59614CF042C005589AA /* Build configuration list for PBXProject "ShakeForFood" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -926,7 +926,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EC1EF59614CF042C005589AA /* Build configuration list for PBXProject "mapper" */ = {
+		EC1EF59614CF042C005589AA /* Build configuration list for PBXProject "ShakeForFood" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EC1EF5BB14CF042D005589AA /* Debug */,

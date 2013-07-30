@@ -21,6 +21,8 @@
 #define SENSOR @"true"
 #define TYPES @"restaurant"
 
+#define DAUM_PLACE_API_KEY @"9f578c9d7ade4f2eeaab708edcfa26b4e3811da5"
+
 
 @interface ThemeListController ()
 {
