@@ -7,7 +7,7 @@
 //
 
 #import "DetailThemeController.h"
-#import "Annotation.h"
+#import "MyAnnotation.h"
 #import "AppDelegate.h"
 
 @implementation DetailThemeController
@@ -76,6 +76,9 @@ NSString *distFromShack;
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad
 {
+    [super viewDidLoad];
+
+    
     //[nearestLabel setText:@"0.43"];
     //[furthestLabel setText:@"4.34"];
     
@@ -88,8 +91,11 @@ NSString *distFromShack;
     [paidTypeLabel setTextColor:[[AppDelegate instance].colorSwitcher textColor]];
     [locationLabel setTextColor:[[AppDelegate instance].colorSwitcher textColor]];
     
-    Annotation *annotation = [[Annotation alloc] initWithLatitude:newLocation.coordinate.latitude
-                                                     andLongitude:newLocation.coordinate.longitude];
+    
+    MyAnnotation *annotation = [[MyAnnotation alloc] init];
+    [annotation setCo:newLocation.coordinate];
+    [annotation setAddress:address];
+    [annotation setName:name];
     
     [mapView addAnnotation:annotation];
     
@@ -106,8 +112,11 @@ NSString *distFromShack;
     [mapView setRegion:region animated:YES];
     [mapView regionThatFits:region];
     
-    [super viewDidLoad];
+    mapView.showsUserLocation=YES;
+
+    
 }
+
 
 
 - (void)viewDidUnload

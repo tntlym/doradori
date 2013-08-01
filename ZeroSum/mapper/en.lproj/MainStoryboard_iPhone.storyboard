@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
     <scenes>
-        <!--Shack View Controller - 흔들어 맛집!-->
+        <!--Shack View Controller - 흔들어 맛집-->
         <scene sceneID="cy8-2L-ewg">
             <objects>
                 <viewController id="Bmh-8g-nBi" customClass="ShackViewController" sceneMemberID="viewController">
@@ -26,7 +26,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="흔들어 맛집!" id="ncm-6S-s5C"/>
+                    <navigationItem key="navigationItem" title="흔들어 맛집" id="ncm-6S-s5C"/>
                     <connections>
                         <segue destination="odq-nM-s5L" kind="push" identifier="ThemeListController" id="Qkp-Do-Eib"/>
                     </connections>
@@ -78,11 +78,11 @@
                                                     <rect key="frame" x="220" y="20" width="87" height="40"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Clock.png" id="uBU-wq-21k">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="heart.png" id="uBU-wq-21k">
                                                     <rect key="frame" x="279" y="26" width="14" height="14"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
-                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="free" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="rcs-c1-BBM">
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="0.0" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="rcs-c1-BBM">
                                                     <rect key="frame" x="271" y="39" width="31" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -207,7 +207,7 @@
                                         <rect key="frame" x="215" y="16" width="73" height="61"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Clock.png" id="lVH-Fe-HzN">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="heart.png" id="lVH-Fe-HzN">
                                         <rect key="frame" x="226" y="57" width="14" height="14"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     </imageView>
@@ -281,9 +281,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Clock.png" width="14" height="14"/>
         <image name="details-box-list.png" width="87" height="40"/>
         <image name="details-box-map.png" width="70" height="61"/>
+        <image name="heart.png" width="14" height="14"/>
         <image name="list-item.png" width="311" height="75"/>
         <image name="map-details.png" width="320" height="88"/>
         <image name="shake.png" width="435" height="395"/>
