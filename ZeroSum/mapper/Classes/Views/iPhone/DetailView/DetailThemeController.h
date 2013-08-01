@@ -10,7 +10,7 @@
 #import <MapKit/MapKit.h>
 #import "Model.h"
 
-@interface DetailThemeController : UIViewController
+@interface DetailThemeController : UIViewController <MKMapViewDelegate, MKAnnotation>
 
 @property (nonatomic, strong) IBOutlet UILabel* titleLabel;
 

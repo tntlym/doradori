@@ -17,7 +17,7 @@
 #define RADIUS @"1000"
 #define OUTPUT @"json"
 #define SENSOR @"true"
-#define TYPES @"restaurant"
+#define TYPES @"food"
 
 @interface ShackViewController ()
 {
@@ -51,6 +51,9 @@
     img.frame =CGRectMake(0, 0, 320, 568);
     [self.view addSubview:img];
     */
+    
+    UIColor* bgColor = [UIColor colorWithPatternImage:[UIImage tallImageNamed:@"bg.png"]];
+    [self.view setBackgroundColor:bgColor];
 }
 
 - (void)didReceiveMemoryWarning

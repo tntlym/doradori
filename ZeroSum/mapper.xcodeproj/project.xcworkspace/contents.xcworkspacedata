@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:ShakeForFood.xcodeproj">
+      location = "self:mapper.xcodeproj">
    </FileRef>
 </Workspace>

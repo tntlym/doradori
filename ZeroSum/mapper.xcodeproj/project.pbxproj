@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C40137917A9FF7A00702286 /* MyAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C40137817A9FF7A00702286 /* MyAnnotation.m */; };
+		2C40137C17AA0E2A00702286 /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C40137A17AA0E2A00702286 /* heart.png */; };
+		2C40137D17AA0E2A00702286 /* heart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C40137B17AA0E2A00702286 /* heart@2x.png */; };
 		2C8E2AB11788A53000BD37E9 /* button-orange-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C8E2AAD1788A53000BD37E9 /* button-orange-pressed.png */; };
 		2C8E2AB21788A53000BD37E9 /* button-orange-pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C8E2AAE1788A53000BD37E9 /* button-orange-pressed@2x.png */; };
 		2C8E2AB31788A53000BD37E9 /* button-orange.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C8E2AAF1788A53000BD37E9 /* button-orange.png */; };
@@ -142,6 +145,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C40137717A9FF7A00702286 /* MyAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAnnotation.h; sourceTree = "<group>"; };
+		2C40137817A9FF7A00702286 /* MyAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAnnotation.m; sourceTree = "<group>"; };
+		2C40137A17AA0E2A00702286 /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = "<group>"; };
+		2C40137B17AA0E2A00702286 /* heart@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "heart@2x.png"; sourceTree = "<group>"; };
 		2C8E2AAD1788A53000BD37E9 /* button-orange-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-orange-pressed.png"; sourceTree = "<group>"; };
 		2C8E2AAE1788A53000BD37E9 /* button-orange-pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-orange-pressed@2x.png"; sourceTree = "<group>"; };
 		2C8E2AAF1788A53000BD37E9 /* button-orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-orange.png"; sourceTree = "<group>"; };
@@ -470,6 +477,8 @@
 			children = (
 				BF5A973B1788828C002A75F5 /* MapViewController.h */,
 				BF5A973C1788828C002A75F5 /* MapViewController.m */,
+				2C40137717A9FF7A00702286 /* MyAnnotation.h */,
+				2C40137817A9FF7A00702286 /* MyAnnotation.m */,
 			);
 			path = MapView;
 			sourceTree = "<group>";
@@ -531,6 +540,8 @@
 		EC1EF5C414CF04D3005589AA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				2C40137A17AA0E2A00702286 /* heart.png */,
+				2C40137B17AA0E2A00702286 /* heart@2x.png */,
 				2C8E2AB71788AF3400BD37E9 /* shake.png */,
 				2C8E2AAD1788A53000BD37E9 /* button-orange-pressed.png */,
 				2C8E2AAE1788A53000BD37E9 /* button-orange-pressed@2x.png */,
@@ -673,7 +684,7 @@
 			attributes = {
 				LastUpgradeCheck = 0420;
 			};
-			buildConfigurationList = EC1EF59614CF042C005589AA /* Build configuration list for PBXProject "ShakeForFood" */;
+			buildConfigurationList = EC1EF59614CF042C005589AA /* Build configuration list for PBXProject "mapper" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -807,6 +818,8 @@
 				2C8E2AB31788A53000BD37E9 /* button-orange.png in Resources */,
 				2C8E2AB41788A53000BD37E9 /* button-orange@2x.png in Resources */,
 				2C8E2AB81788AF3400BD37E9 /* shake.png in Resources */,
+				2C40137C17AA0E2A00702286 /* heart.png in Resources */,
+				2C40137D17AA0E2A00702286 /* heart@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -829,6 +842,7 @@
 				7F8ECF30161247DE00F1807C /* ThemeListController.m in Sources */,
 				BF5A973417883E56002A75F5 /* ShackViewController.m in Sources */,
 				BF5A973D1788828C002A75F5 /* MapViewController.m in Sources */,
+				2C40137917A9FF7A00702286 /* MyAnnotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -926,7 +940,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EC1EF59614CF042C005589AA /* Build configuration list for PBXProject "ShakeForFood" */ = {
+		EC1EF59614CF042C005589AA /* Build configuration list for PBXProject "mapper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EC1EF5BB14CF042D005589AA /* Debug */,
