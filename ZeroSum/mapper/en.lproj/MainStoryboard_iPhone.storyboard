@@ -9,20 +9,17 @@
             <objects>
                 <viewController id="Bmh-8g-nBi" customClass="ShackViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CY3-q2-JzQ">
-                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="shake.png" id="Frd-yx-4DB">
-                                <rect key="frame" x="45" y="84" width="230" height="166"/>
+                                <rect key="frame" x="75" y="59" width="171" height="248"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="휴대폰을 흔들면 맛집을 추천해 드립니다" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="28p-Zw-sHb">
-                                <rect key="frame" x="26" y="276" width="269" height="21"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="text.png" id="BAU-0P-N2D">
+                                <rect key="frame" x="45" y="370" width="230" height="15"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -40,11 +37,11 @@
             <objects>
                 <viewController id="odq-nM-s5L" customClass="ThemeListController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="whY-k3-tpC">
-                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="86" sectionHeaderHeight="22" sectionFooterHeight="22" id="h1U-M2-7ld">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="416"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
@@ -149,11 +146,11 @@
             <objects>
                 <viewController id="uI6-DI-AZT" customClass="MapViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NEY-18-NG4">
-                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="PPG-9b-kjo">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="416"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </mapView>
                         </subviews>
@@ -173,15 +170,15 @@
             <objects>
                 <viewController id="RXE-lm-byD" customClass="DetailThemeController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kQh-8D-L8Z">
-                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="OVv-rP-P4n">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="333"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="421"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES"/>
                             </mapView>
                             <view contentMode="scaleToFill" id="wbX-bp-4Cz">
-                                <rect key="frame" x="0.0" y="328" width="320" height="88"/>
+                                <rect key="frame" x="0.0" y="416" width="320" height="88"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="map-details.png" id="Ct3-v1-SBy">
@@ -286,7 +283,8 @@
         <image name="heart.png" width="14" height="14"/>
         <image name="list-item.png" width="311" height="75"/>
         <image name="map-details.png" width="320" height="88"/>
-        <image name="shake.png" width="435" height="395"/>
+        <image name="shake.png" width="171" height="248"/>
+        <image name="text.png" width="461" height="30"/>
     </resources>
     <classes>
         <class className="DetailThemeController" superclassName="UIViewController">
@@ -335,6 +333,6 @@
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
 </document>
